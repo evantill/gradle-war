@@ -66,7 +66,3 @@ val integrationTest by tasks.registering(Test::class) {
         includeGroups("integration")
     }
 }
-
-tasks.check{
-    dependsOn(integrationTest)
-}
