@@ -23,6 +23,8 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:1.4.5")
     providedCompile("jakarta.servlet:jakarta.servlet-api:5.0.0")
     testImplementation("org.testng:testng:7.7.0")
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation("com.google.code.gson:gson:2.10")
 }
 
 gretty {
